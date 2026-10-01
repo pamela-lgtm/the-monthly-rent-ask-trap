@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Rent Trap — Why the Number on Your Lease Is Not the Rent You Receive | Verandah Properties</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#008C82;--teal-deep:#00625B;--gold:#C9A227;--charcoal:#1A1A1A;--body:#1F1F1F;--muted:#5A5651;--strong:#0F0F0F;--line:#E2DED7;--paper:#FBFAF7;--panel:#F3F1EC;--red:#B5543C;--rose:#D4886F;--green:#4E8C6A;--slate:#6B7C8C}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--body);font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:17px;line-height:1.72}
+.wrap{max-width:780px;margin:0 auto;padding:0 26px}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;color:var(--charcoal)}
+h1{font-size:2.7rem;line-height:1.1;margin:0 0 .5rem}
+h2{font-size:1.85rem;line-height:1.22;margin:0 0 .9rem}
+h3{font-size:1.2rem;margin:1.4rem 0 .5rem}
+p{margin:0 0 1.15rem}
+b,strong{font-weight:600;color:var(--strong)}
+ul{margin:0 0 1.15rem;padding-left:1.2rem}
+li{margin-bottom:.55rem}
+.mast{background:var(--charcoal);color:#F5F3EE;padding:32px 0 38px}
+.brandline{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap}
+.mark{width:33px;height:33px;border-radius:50%;background:var(--teal);color:#fff;font-family:'Cormorant Garamond',serif;font-size:21px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;transform:translateY(5px)}
+.brandname{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:#F5F3EE}
+.mast .tag{color:#A9A49C;font-size:.83rem;margin-left:auto}
+.kicker{color:var(--gold);font-size:.92rem;margin:26px 0 4px}
+.mast h1{color:#FBFAF7}
+.mast h1 em{font-style:italic;font-weight:400;color:var(--gold)}
+.mast .sub{color:#B8B2A8;margin:0;font-size:1.08rem;max-width:62ch}
+.bottom{background:var(--teal);color:#fff;padding:30px 0}
+.bottom h2{color:#fff;font-size:1.5rem;margin-bottom:.4rem}
+.bottom p{color:#DDEFEC;margin-bottom:.8rem}
+.bottom b{color:#fff}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,.28);border-radius:10px;overflow:hidden;margin:16px 0 14px}
+.vs div{background:var(--teal);padding:18px 20px}
+.vs div:last-child{background:var(--teal-deep)}
+.vs .k{font-size:.8rem;color:#CDE8E5;text-transform:uppercase;letter-spacing:.05em}
+.vs .v{font-family:'Cormorant Garamond',serif;font-size:2.4rem;line-height:1.1;color:#fff}
+.vs .n{font-size:.86rem;color:#CDE8E5}
+section{padding:40px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:none}
+h2 em{font-style:italic;font-weight:400;color:var(--teal-deep)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 22px}
+.st{background:#fff;padding:17px}
+.st .v{font-family:'Cormorant Garamond',serif;font-size:1.9rem;line-height:1.05;color:var(--teal-deep)}
+.st .v.warn{color:var(--red)}
+.st .k{font-size:.84rem;color:var(--muted);margin-top:5px;line-height:1.45}
+.chart{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px 26px;margin:0 0 22px}
+.chart h3{margin:0 0 4px}
+.chart .cap{font-size:.9rem;color:var(--muted);margin:0 0 18px}
+.bar{display:grid;grid-template-columns:160px 1fr;gap:13px;align-items:center;margin-bottom:11px;font-size:.93rem}
+.track{background:var(--panel);border-radius:4px;height:28px;overflow:hidden}
+.fill{height:28px;border-radius:4px;display:flex;align-items:center;justify-content:flex-end;padding-right:11px;color:#fff;font-weight:600;font-size:.88rem;white-space:nowrap}
+.fill.gr{background:var(--green)}.fill.g{background:var(--gold)}.fill.r{background:var(--red)}.fill.rs{background:var(--rose)}.fill.s{background:var(--slate)}.fill.t{background:var(--teal)}
+.src{font-size:.85rem;color:var(--muted);margin:14px 0 0;padding-top:13px;border-top:1px solid var(--line)}
+.quote{border-left:4px solid var(--gold);background:#fff;padding:21px 25px;border-radius:0 8px 8px 0;margin:0 0 24px}
+.quote p{font-family:'Cormorant Garamond',serif;font-size:1.24rem;line-height:1.5;margin-bottom:0}
+.quote p+p{margin-top:.7rem}
+.investor{background:var(--charcoal);color:#F5F3EE;border-radius:11px;padding:30px 32px;margin:0 0 24px}
+.investor h2{color:#FBFAF7;margin-bottom:.6rem}
+.investor p{color:#E3DFD8}
+.investor b{color:#fff}
+.investor .big{font-family:'Cormorant Garamond',serif;font-size:2.6rem;line-height:1.05;color:var(--gold);margin:4px 0 6px}
+.invgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.15);border-radius:9px;overflow:hidden;margin:18px 0}
+.invgrid div{background:#232323;padding:16px}
+.invgrid .v{font-family:'Cormorant Garamond',serif;font-size:1.9rem;color:var(--gold);line-height:1.1}
+.invgrid .k{font-size:.82rem;color:#B8B2A8;margin-top:4px;line-height:1.4}
+details{border:1px solid var(--line);border-radius:9px;background:#fff;margin:0 0 12px}
+summary{cursor:pointer;padding:15px 19px;font-weight:600;color:var(--teal-deep);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.45rem;color:var(--gold);line-height:1;flex:0 0 auto}
+details[open] summary::after{content:"\2212"}
+summary:hover{background:var(--panel)}
+.dbody{padding:2px 19px 16px}
+.dbody>*:last-child{margin-bottom:0}
+.tscroll{overflow-x:auto;margin:0 0 14px}
+table{border-collapse:collapse;width:100%;font-size:.92rem;background:#fff;min-width:500px}
+th{background:var(--panel);color:var(--strong);font-weight:600;text-align:left;padding:10px 12px;border-bottom:2px solid var(--line)}
+td{padding:10px 12px;border-bottom:1px solid var(--line)}
+td.num,th.num{text-align:right;white-space:nowrap}
+tr.tot td{font-weight:600;background:#F3F1EC;border-top:2px solid var(--charcoal)}
+footer{background:var(--charcoal);color:#B8B2A8;padding:34px 0;font-size:.9rem}
+footer .sig{font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--gold);margin-bottom:9px}
+footer a{color:#8FD2CB}
+@media(max-width:700px){body{font-size:16.5px}h1{font-size:2rem}h2{font-size:1.5rem}.vs,.invgrid{grid-template-columns:1fr}.bar{grid-template-columns:108px 1fr;font-size:.85rem}.mast .tag{margin-left:0;width:100%}.investor{padding:24px 22px}}
+@media print{body{background:#fff}section{page-break-inside:avoid}summary::after{content:""}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="brandline">
+      <span class="mark">V</span>
+      <span class="brandname">Verandah Properties, LLC</span>
+      <span class="tag">For Owners</span>
+    </div>
+    <p class="kicker">The most expensive mistake in rental property</p>
+    <h1>The number on your lease<br><em>is not the rent you get.</em></h1>
+    <p class="sub">Every single day a rental sits empty, an owner loses money that can never be earned back. Most of them never see it happen, because it never appears on a statement. Here is the math, and it is just math.</p>
+  </div>
+</header>
+
+<div class="bottom">
+  <div class="wrap">
+    <h2>Start here</h2>
+    <p>Take whatever rent you are asking. Divide it by thirty. That is what today cost you — and tomorrow, and the day after.</p>
+    <div class="vs">
+      <div><div class="k">That number</div><div class="v">is what</div><div class="n">every single day of vacancy costs you</div></div>
+      <div><div class="k">And it is</div><div class="v">gone</div><div class="n">You will never earn it back. Not next month, not next year, not ever.</div></div>
+    </div>
+    <p>A home asking <b>$3,000</b> costs its owner <b>$99 a day</b> empty. Seven days is <b>$693</b>. Thirty days is <b>$2,970</b>. That is before the taxes, insurance and lawn care that keep running the whole time.</p>
+  </div>
+</div>
+
+<div class="wrap">
+
+<section>
+  <h2>The trap</h2>
+  <p>It works like this, and it catches intelligent, careful people every single month.</p>
+  <p>You are deciding what to ask for your home. One number feels safe and one number feels ambitious. The ambitious one is only $200 more. <b>What is the harm in trying?</b> If it doesn't work, you can always come down.</p>
+  <p>That sentence — <i>you can always come down</i> — is the trap. It sounds cautious. It is the most expensive thought in this business.</p>
+
+  <div class="quote">
+    <p>You can always come down. What you can never do is get back the weeks you spent finding out.</p>
+  </div>
+
+  <p>Here is the part that makes it so hard to see: <b>vacancy never shows up as a charge.</b> Your statement shows no rent collected. It does not show a line that says "lost $2,970 this month." The repair bill feels real because it is a number with a minus sign. The empty month feels like nothing happened.</p>
+  <p>Something did happen. It was the single largest expense your property had that year.</p>
+</section>
+
+<section>
+  <h2>It is not voodoo. <em>It is just math.</em></h2>
+  <p>There is nothing mysterious here, and no one is doing anything clever. Three lines of math:</p>
+
+  <div class="chart">
+    <h3>What every vacant day costs</h3>
+    <p class="cap">Rent divided by 30, plus the costs that keep running on an empty house</p>
+    <div class="tscroll">
+    <table>
+      <thead><tr><th>Monthly rent</th><th class="num">Lost rent per day</th><th class="num">Carrying costs per day</th><th class="num">Total, per day</th><th class="num">One week</th><th class="num">30 days</th><th class="num">60 days</th></tr></thead>
+      <tbody>
+        <tr><td>$2,000</td><td class="num">$66</td><td class="num">$23</td><td class="num"><b>$89</b></td><td class="num">$624</td><td class="num">$2,673</td><td class="num">$5,345</td></tr>
+        <tr><td>$2,500</td><td class="num">$82</td><td class="num">$23</td><td class="num"><b>$106</b></td><td class="num">$739</td><td class="num">$3,166</td><td class="num">$6,332</td></tr>
+        <tr><td>$3,000</td><td class="num">$99</td><td class="num">$23</td><td class="num"><b>$122</b></td><td class="num">$854</td><td class="num">$3,659</td><td class="num">$7,318</td></tr>
+        <tr><td>$3,500</td><td class="num">$115</td><td class="num">$23</td><td class="num"><b>$138</b></td><td class="num">$969</td><td class="num">$4,152</td><td class="num">$8,304</td></tr>
+        <tr><td>$4,000</td><td class="num">$132</td><td class="num">$23</td><td class="num"><b>$155</b></td><td class="num">$1,084</td><td class="num">$4,645</td><td class="num">$9,290</td></tr>
+        <tr><td>$5,000</td><td class="num">$164</td><td class="num">$23</td><td class="num"><b>$188</b></td><td class="num">$1,314</td><td class="num">$5,632</td><td class="num">$11,263</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="src">Carrying costs assume roughly $700 a month in property tax, insurance, HOA dues, lawn care and utilities continuing while the home is empty. Adjust for your own property — the rent column alone is enough to make the point.</p>
+  </div>
+
+  <p><b>Find your rent in that table. Look at the daily number.</b> Then count the days your home has been empty and multiply.</p>
+  <p>Most owners have never done that calculation. The ones who do rarely argue about pricing again.</p>
+</section>
+
+<section>
+  <h2>Two owners, two identical homes</h2>
+  <p>This is the clearest way we know to show it. Same floor plan, same community, same week on the market. The only difference is the number each owner chose.</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th></th><th class="num">Owner A</th><th class="num">Owner B</th></tr></thead>
+    <tbody>
+      <tr><td>Asking rent</td><td class="num">$2,895</td><td class="num">$3,095</td></tr>
+      <tr><td>Days vacant before leasing</td><td class="num">14</td><td class="num">62</td></tr>
+      <tr><td>Monthly rent on the signed lease</td><td class="num">$2,895</td><td class="num"><b>$3,095</b></td></tr>
+      <tr class="tot"><td>Actually collected over 12 months</td><td class="num">$33,408</td><td class="num">$30,831</td></tr>
+      <tr class="tot"><td>True monthly rent</td><td class="num"><b>$2,784</b></td><td class="num">$2,569</td></tr>
+    </tbody>
+    <caption>Twelve months measured from the day each home came to market.</caption>
+  </table>
+  </div>
+
+  <p>Owner B won the argument. He got the higher rent. His lease says $3,095 and he can point at it.</p>
+
+  <div class="big">
+    <div class="n neg">$2,576</div>
+    <p>Owner A — who asked for <b>$200 less</b> — ended the year <b>$2,576 ahead</b>. Her true monthly rent was <b>$2,784</b> against his $2,569.</p>
+  </div>
+
+  <p>Owner B gave up $2,576 to be right about $200.</p>
+  <p>Here is the math behind it, and it takes ten seconds. The extra $200 a month is worth <b>$2,400 over a year</b>. Each vacant day at $3,095 costs <b>$102</b>. So the higher rent pays for itself only if it costs <b>fewer than 24 extra days</b> of vacancy.</p>
+  <p>It cost him <b>48</b>.</p>
+
+  <div class="quote">
+    <p>That is the whole thing. Twenty-four days. If reaching for a higher number costs you more than about three and a half weeks, you have lost money — no matter what the lease says.</p>
+  </div>
+</section>
+
+<section>
+  <h2>So why doesn't everyone see this?</h2>
+  <p>It is a fair question, and the answer is not that owners are careless. These are usually the most careful people we work with. Four things are happening at once.</p>
+
+  <div class="box">
+    <h3>The loss is invisible</h3>
+    <p>Every other expense arrives as a bill. Vacancy arrives as an absence. Human beings are very good at reacting to a number with a minus sign in front of it and very bad at reacting to money that simply never appeared.</p>
+  </div>
+
+  <div class="box">
+    <h3>Lowering the rent feels like a choice; vacancy feels like luck</h3>
+    <p>Dropping $100 feels like a decision you made and will have to live with. Another empty week feels like something that happened to you, and might be over tomorrow. One of those registers as a loss. The other registers as waiting.</p>
+    <p>They are the same money. The empty week usually costs more.</p>
+  </div>
+
+  <div class="box">
+    <h3>Each week makes it harder to move</h3>
+    <p>After three weeks at the higher number, reducing it does not just cost rent — it means conceding the first three weeks were a mistake. So the price holds a little longer, which makes the admission bigger, which makes it harder still.</p>
+    <p>This is the single most common way a two-week problem becomes a two-month one.</p>
+  </div>
+
+  <div class="box">
+    <h3>And yes — sometimes it is about being right</h3>
+    <p>We will be honest with you, because this is the one nobody says out loud.</p>
+    <p>If someone told you your home was worth more, holding that number stops being a financial decision and starts being about whether you were right. Reducing feels like admitting you were wrong — about the house, about the advice you took, about your own judgment.</p>
+    <p>Your property almost certainly is lovely. Being right about that and being paid for it are two different things, and only one of them earns anything.</p>
+  </div>
+</section>
+
+<section>
+  <h2>And it gets worse the longer it sits</h2>
+  <p>This is the part owners genuinely do not know, and it changes everything about why speed matters.</p>
+  <p>A listing gets more attention in its <b>first two weeks</b> than at any other point in its life. That is when the best-qualified, most motivated renters see it — people who have already decided to move and are choosing between options.</p>
+  <p>After that, the audience changes. Someone who has been searching for a month starts recognising the same listings. And a home they have seen again and again stops reading as <i>available</i>.</p>
+
+  <div class="quote">
+    <p>It starts reading as <b>rejected</b>.</p>
+    <p>They do not think "that one is still there." They think "something must be wrong with it, or it isn't worth what they're asking." Nobody ever says this out loud, so the owner never hears it. They simply stop enquiring.</p>
+  </div>
+
+  <p>So the overpriced home does not just lose rent while it waits. It becomes <b>less attractive</b> while it waits. By the time the price is finally right, the market has already formed an opinion — and the home often ends up leasing for <i>less</i> than homes that were priced correctly from day one.</p>
+  <p>We see this constantly. A home launches high, cuts three times over two months, and finally leases below what a near-identical home down the street got in nine days.</p>
+</section>
+
+<section>
+  <h2>Your mortgage is not <em>a market force</em></h2>
+  <p>We say this gently, because it is one of the hardest things for an owner to hear.</p>
+  <p>Your debt service, your taxes, your insurance and what you paid for the property are all real. They matter enormously to you. They have <b>no bearing whatsoever</b> on what a renter will pay.</p>
+
+  <div class="quote">
+    <p>The market does not know what you owe. If it did, it would not care.</p>
+  </div>
+
+  <p>A renter comparing three homes this weekend is asking one question: which of these is the best use of my money? They are not adjusting for your purchase price, your rate, or the fact that your HOA went up.</p>
+  <p>If the numbers only work at a rent the market will not pay, pricing above the market does not fix that. It simply adds vacancy to the shortfall — and now you are losing the gap <i>and</i> the rent.</p>
+</section>
+
+<section>
+  <h2>The most expensive trap of all</h2>
+  <p>Now the one that costs owners the most money, and it is the hardest to see coming because it arrives as good news.</p>
+  <p>You interview two or three companies. One of them quotes a rent noticeably higher than the others. It is flattering — it confirms what you suspected about your home. You sign with them.</p>
+  <p>Here is how that plays out, almost every time:</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th class="num">Week</th><th>What happens</th></tr></thead>
+    <tbody>
+      <tr><td class="num">1–2</td><td>The home goes live high. Some activity, no applications. You are told it is early.</td></tr>
+      <tr><td class="num">3–4</td><td>Enquiries slow. You now feel committed — to the company and to the number.</td></tr>
+      <tr><td class="num">5–6</td><td>A reduction is suggested. You agree, reluctantly, because you have already waited.</td></tr>
+      <tr><td class="num">7–9</td><td>Another reduction. The listing is now stale and renters have seen it repeatedly.</td></tr>
+      <tr><td class="num">10+</td><td>It leases at roughly the number the first company quoted you — sometimes less.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="big">
+    <div class="n neg">You get to market rent either way</div>
+    <p>The only thing that changed is how many weeks of vacancy you paid for on the journey. At $3,000 a month, ten weeks of waiting costs <b>$7,000</b> — to arrive at the same number you were offered at the start.</p>
+  </div>
+
+  <h3>Why no agent can beat the market — stated plainly</h3>
+  <p>This is worth being absolutely clear about, because it is the single most common claim made in this industry.</p>
+  <p>Rent is not set by the company marketing the home. It is set by renters, who look at every available home at once and choose. Every company is selling into the <b>same market</b>, to the <b>same renters</b>, on the <b>same weekend</b>.</p>
+
+  <div class="quote">
+    <p>A renter standing in your kitchen has never heard of the company on the sign and does not care. They are comparing your home to the other three they saw that day.</p>
+  </div>
+
+  <p>No agent has ever made a renter pay above market. Not once. What an agent can do is <b>ask</b> for more — and asking is free for them. The vacancy is paid for entirely by you.</p>
+  <p>What a management company genuinely controls is different, and it is worth knowing: how quickly a prospect can see the home, whether their question gets answered the same day, how the home is presented, and how fast a qualified applicant moves from interest to signature. Those things change outcomes. The rent number does not bend to anyone's will.</p>
+</section>
+
+<section>
+  <h2>Do the calculation yourself</h2>
+  <p>Right now, on whatever you are asking. It takes thirty seconds and most owners have never done it.</p>
+
+  <div class="box">
+    <h3>Step one</h3>
+    <p>Monthly rent ÷ 30 = <b>what one vacant day costs you</b></p>
+  </div>
+  <div class="box">
+    <h3>Step two</h3>
+    <p>Add roughly $20–25 a day for taxes, insurance, HOA, lawn and utilities that keep running on an empty house</p>
+  </div>
+  <div class="box">
+    <h3>Step three</h3>
+    <p>Multiply by the number of days your home has been empty</p>
+  </div>
+  <div class="box">
+    <h3>Step four — the one that matters</h3>
+    <p>Take the extra rent you are hoping for, multiply it by 12, and divide by your daily number. <b>That is how many days of vacancy that extra rent can afford before you are losing money.</b></p>
+    <p>Here it is worked all the way through, on a home that would rent at $2,900 where the owner wants to try $3,100.</p>
+    <p><b>Why twelve months?</b> Because that is how long you actually get to collect the higher rent. A standard long-term lease runs twelve months, so the extra $200 is not $200 forever — it is $200 for twelve payments, and then the rent resets at renewal. Twelve is the real number, and using anything longer flatters the decision.</p>
+
+    <div class="tscroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th>The calculation</th><th class="num">Result</th></tr></thead>
+      <tbody>
+        <tr><td>The extra rent you are hoping for &nbsp; <span style="color:var(--muted)">$3,100 − $2,900</span></td><td class="num">$200 per month</td></tr>
+        <tr><td>Multiply by 12 months &nbsp; <span style="color:var(--muted)">$200 × 12</span></td><td class="num">$2,400 over the lease</td></tr>
+        <tr><td>Your daily number &nbsp; <span style="color:var(--muted)">$3,100 ÷ 30</span></td><td class="num">$103 per day</td></tr>
+        <tr class="tot"><td>Divide one by the other &nbsp; <span style="color:var(--muted)">$2,400 ÷ $103</span></td><td class="num">23 days</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p style="margin-top:14px"><b>Twenty-three days.</b> That is the entire budget. If asking $3,100 instead of $2,900 costs you more than 23 extra days of vacancy, you have lost money — and you will still have lost money even if a renter eventually pays the $3,100.</p>
+    <p>Put the other way round: the extra $200 a month has to survive <b>eleven months of tenancy</b> just to pay back three and a half weeks of empty house.</p>
+
+    <div class="tscroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th>What actually happens</th><th class="num">Days vacant</th><th class="num">Verdict</th></tr></thead>
+      <tbody>
+        <tr><td>Leases quickly at $3,100</td><td class="num">Under 23</td><td class="num pos">You were right — you win</td></tr>
+        <tr><td>Takes a month longer than it would have</td><td class="num">30</td><td class="num neg">You lose about $720</td></tr>
+        <tr><td>Takes two months longer</td><td class="num">60</td><td class="num neg">You lose about $3,820</td></tr>
+        <tr><td>Takes two months longer and you reduce to $2,900 anyway</td><td class="num">60</td><td class="num neg">You lose about $4,450</td></tr>
+      </tbody>
+      <caption>The first three rows compare the extra vacancy cost against the extra rent collected over twelve months. The last row compares against simply leasing at $2,900 in about two weeks — because no extra rent is ever collected.</caption>
+    </table>
+    </div>
+
+    <p style="margin-top:14px">That last row is the one we see most often, and it is the worst outcome available: two months empty, and then the original number anyway.</p>
+    <p>For most homes the break-even lands between <b>20 and 30 days</b>. Not months. Days.</p>
+  </div>
+
+  <div class="quote">
+    <p>If you have been empty longer than that number, the higher rent has already cost you more than it will ever earn — even if you get it.</p>
+  </div>
+</section>
+
+<section>
+  <h2>What this actually means</h2>
+  <ul>
+    <li><b>The rent on your lease is not the rent you receive.</b> What you receive is what you collect across twelve months, divided by twelve, after vacancy.</li>
+    <li><b>Vacancy is the only expense you can never recover.</b> Every other cost can be planned for, financed or earned back. A vacant day is simply gone.</li>
+    <li><b>The break-even is usually 20 to 30 days.</b> If reaching higher costs you more than a month, you have lost — regardless of what the lease says.</li>
+    <li><b>A home that sits becomes less attractive, not more.</b> The first two weeks are the most valuable the listing will ever have.</li>
+    <li><b>Your mortgage is not a market force.</b> The market does not know what you owe.</li>
+    <li><b>No company can command a higher rent than the market will pay.</b> They can only ask — and you pay for the asking.</li>
+  </ul>
+
+  <div class="quote">
+    <p>None of this is complicated and none of it is a sales argument. It is division. The only reason it costs owners so much money is that almost nobody stops to do the math.</p>
+  </div>
+
+  <p style="margin-top:24px">If you own a rental in Central Florida and want to know what your home would genuinely rent for — and what waiting is costing you right now — we are glad to run the numbers with you.</p>
+  <p><b>Verandah Properties, LLC</b><br><a href="tel:4078550331">407-855-0331</a></p>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="sig">Curating Lake Nona's Finest Rental Portfolio</div>
+    <p><b>Verandah Properties, LLC</b> · Pamela Syvertson, Owner &amp; Broker · License CQ1048619 · 407-855-0331</p>
+    <p style="font-size:.84rem;color:#8C877F">Figures are illustrative and use straightforward math; actual carrying costs vary by property. Collected-rent figures assume a twelve-month measurement window from the date a home comes to market and exclude make-ready and leasing costs. General market commentary, not investment, tax or legal advice.</p>
+  </div>
+</footer>
+
+</body>
+</html>
